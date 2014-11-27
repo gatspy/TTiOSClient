@@ -2018,7 +2018,7 @@
 				ORGANIZATIONNAME = dujia;
 				TargetAttributes = {
 					C4EBA733192F279100B72723 = {
-						DevelopmentTeam = 6U33YVLGCF;
+						DevelopmentTeam = 34DERGD64E;
 					};
 					C4EBA74E192F279100B72723 = {
 						TestTargetID = C4EBA733192F279100B72723;
@@ -2468,8 +2468,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MOGU Oversea Limited";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MOGU Oversea Limited";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2487,7 +2487,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "939e5079-ea15-4a45-a8a3-56fc6bba7cb4";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2508,8 +2508,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MOGU Oversea Limited";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MOGU Oversea Limited";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2520,7 +2520,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PROVISIONING_PROFILE = "939e5079-ea15-4a45-a8a3-56fc6bba7cb4";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2532,8 +2532,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MOGU Oversea Limited";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MOGU Oversea Limited";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2551,7 +2551,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = TeamTalk;
-				PROVISIONING_PROFILE = "a6258601-0cb4-4b2b-8394-fe7171ff0677";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2563,8 +2563,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MOGU Oversea Limited";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MOGU Oversea Limited";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2578,7 +2578,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = TeamTalk;
-				PROVISIONING_PROFILE = "a6258601-0cb4-4b2b-8394-fe7171ff0677";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2588,7 +2588,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeamTalk.app/TeamTalk";
-				CODE_SIGN_IDENTITY = "iPhone Developer: zhenjia zhang (E2QZ25Z4VF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2602,7 +2602,7 @@
 				);
 				INFOPLIST_FILE = "IOSDuoduoTests/TeamTalkTests-Info.plist";
 				PRODUCT_NAME = TeamTalkTests;
-				PROVISIONING_PROFILE = "942789d2-931c-4578-af08-eff374f3920f";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "Build/Products/Debug-iphoneos/TeamTalk.app/TeamTalk";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2612,7 +2612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IOSDuoduo.app/IOSDuoduo";
-				CODE_SIGN_IDENTITY = "iPhone Developer: zhenjia zhang (E2QZ25Z4VF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2622,7 +2622,7 @@
 				GCC_PREFIX_HEADER = "IOSDuoduo/TeamTalk-Prefix.pch";
 				INFOPLIST_FILE = "IOSDuoduoTests/TeamTalkTests-Info.plist";
 				PRODUCT_NAME = TeamTalkTests;
-				PROVISIONING_PROFILE = "942789d2-931c-4578-af08-eff374f3920f";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "build/Products/Release-iphoneos/TeamTalk.app/TeamTalk";
 				WRAPPER_EXTENSION = xctest;
 			};
